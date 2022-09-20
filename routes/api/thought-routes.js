@@ -13,22 +13,28 @@ const {
 
 router
 .route('/')
-//.get(getAllThoughts)
-//.post(addThought);
+.get(getAllThoughts)
+
+router
+.route('/:userId')
+.post(addThought);
 
 router
 .route('/:thoughtId')
-//.get(getThoughtById)
-//.put(updateThought)
-//.delete(removeThought);
+.get(getThoughtById)
+.put(updateThought)
+
+router
+.route('/:userId/:thoughtId')
+.delete(removeThought);
 
 router
 .route('/:thoughtId/reactions')
-//.post(addReaction)
+.post(addReaction)
 
 router
 .route('/:thoughtId/reactions/:reactionId')
-//.delete(removeReaction);
+.delete(removeReaction);
 
 
 module.exports = router;
