@@ -1,6 +1,5 @@
 # Social Network API
-I
-mplemented a MongoDB database along with its ODM, Mongoose. Express.js for routing purposes. Split the routes and its controller functionalities into separate files.
+Implemented a MongoDB database along with its ODM, Mongoose. Express.js for routing purposes. Split the routes and its controller functionalities into separate files.
 
 ## Description
 This application serves as a backend database server for a social network web application where users can share their thoughts, react to other users' thoughts, and create a friend list. The API routes also provide the ability to edit user information or thoughts, delete a user, thought, or reaction, and remove a friend from the friend list.
